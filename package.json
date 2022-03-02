@@ -1,0 +1,29 @@
+{
+  "name": "download-webpack-plugin",
+  "version": "0.1.0",
+  "description": "downloads files when webpack builds",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js index.test.js src/** test/**",
+    "test": "jest",
+    "test-build": "webpack --config ./test/webpack.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "John K. Grant <john.k.grant@warnerbros.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-plugin-jest": "^26.1.1",
+    "jest": "^27.5.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "yauzl": "^2.10.0"
+  }
+}
